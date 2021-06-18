@@ -9,5 +9,4 @@ Mapping_ROS
    
    
  2. 움직이면서 map 생성 예제.               
-     ![before](https://user-images.githubusercontent.com/67997760/122509382-a7669600-d03e-11eb-9836-35b4c7a0c3d9.png)
-     ![after](https://user-images.githubusercontent.com/67997760/122509387-a9305980-d03e-11eb-89b1-44d8e2512ae9.png)
+     ![before](https://user-images.githubusercontent.com/67997760/122509382-a7669600-d03e-11eb-9836-35b4c7a0c3d9.png){: width="50%" height="50%"} ![after](https://user-images.githubusercontent.com/67997760/122509387-a9305980-d03e-11eb-89b1-44d8e2512ae9.png){: width="50%" height="50%"}
