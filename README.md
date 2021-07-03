@@ -23,11 +23,10 @@ git clone https://github.com/ros-planning/navigation_msgs.git
 cd ..
 catkin_make
 ~~~
-#### Useage
+#### Usage
 > Required topic
 > > /scan /odom /tf
 
-Usage
 ~~~
 rosrun gmapping slam_gmapping
 ~~~
