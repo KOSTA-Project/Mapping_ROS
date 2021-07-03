@@ -29,7 +29,7 @@ catkin_make
 
 Usage
 ~~~
-rosrun mapping slam_gmapping
+rosrun gmapping slam_gmapping
 ~~~
 Output      
 <img width="1630" alt="스크린샷 2021-07-03 오후 11 27 44" src="https://user-images.githubusercontent.com/67997760/124357454-7c8f5b00-dc56-11eb-8ec2-b4c8a68e15b0.png">
@@ -37,6 +37,7 @@ Output
 
 ###
 ## 2. AMCL
+
 
 ###
 ## 3. Navigation Stack (move_base)
