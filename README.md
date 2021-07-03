@@ -9,18 +9,18 @@ Mapping_ROS
 ###
 ## 1. SLAM-Gmapping  
 
-'''
+~~~
 sudo apt-get install ros-melodic-slam-gmapping
-'''
+~~~
 or    
-'''
+~~~
 cd ~/catkin_ws/src/
 git clone https://github.com/ros-perception/openslam_gmapping
 git clone https://github.com/ros-perception/slam_gmapping.git
 git clone https://github.com/ros-planning/navigation.git
 git clone https://github.com/ros/geometry2.git
 git clone https://github.com/ros-planning/navigation_msgs.git
-'''
+~~~
 
 ###
 ## 2. AMCL
