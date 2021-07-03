@@ -8,7 +8,7 @@ Mapping_ROS
       
 ###
 ## 1. SLAM-Gmapping  
-
+#### Simple Download
 ~~~
 sudo apt-get install ros-melodic-slam-gmapping
 ~~~
@@ -20,6 +20,8 @@ git clone https://github.com/ros-perception/slam_gmapping.git
 git clone https://github.com/ros-planning/navigation.git
 git clone https://github.com/ros/geometry2.git
 git clone https://github.com/ros-planning/navigation_msgs.git
+cd ..
+catkin_make
 ~~~
 
 ###
