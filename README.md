@@ -23,6 +23,16 @@ git clone https://github.com/ros-planning/navigation_msgs.git
 cd ..
 catkin_make
 ~~~
+#### Useage
+Required topic
+> /scan /odom /tf       
+Usage
+~~~
+rosrun mapping slam_gmapping
+~~~
+Output      
+      
+
 
 ###
 ## 2. AMCL
