@@ -34,14 +34,23 @@ NavfnROS:
   default_tolerance:                  0.1
   visualize_potential:                true
   planner_costmap_publish_frequency:  0.5
-
-
-  yaw_goal_tolerance:           0.20
-  xy_goal_tolerance:            0.1
-  latch_xy_goal_tolerance:      true
   
 
 TrajectoryPlannerROS:
+  max_vel_x: 0.45
+  min_vel_x: 0.1
+  max_vel_theta: 1.0
+  min_in_place_vel_theta: 0.4
+
+  acc_lim_theta: 3.2
+  acc_lim_x: 2.5
+  acc_lim_y: 2.5
+
+  xy_goal_tolerance: 0.20
+  yaw_goal_tolerance: 0.08
+
+  holonomic_robot: false
+  
   sim_time:                     4.0
   sim_granularity:              0.25
   angular_sim_granularity:      0.05
